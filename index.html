@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Musique</title>
+  <link rel="stylesheet" type="text/css" href="reset.css">
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Palanquin">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="main.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Musique</h1>
+    <h2>Ambient Notifications</h2>
+  </header>
+  
+  <main>
+    <article>
+      <section class="btn-container">
+        <div>
+          <h3>Device</h3>
+          <span class="dev">&nbsp;</span>
+        </div>
+        
+        <div>
+          <h3>Messages</h3>
+          <span id="msg">&nbsp;</span>
+        </div>
+        
+        <div>
+          <h3>Tags</h3>
+          <span id="tag">&nbsp;</span>
+        </div>
+        
+        <div>
+          <h3>Birthdays</h3>
+          <span id="bday">&nbsp;</span>
+        </div>
+      </section>
+      
+      <section class="btn-container">
+        <div>
+          <h3>Likes</h3>
+          <span id="like">&nbsp;</span>
+        </div>
+        
+        <div>
+          <h3>Comments</h3>
+          <span id="cmnt">&nbsp;</span>
+        </div>
+        
+        <div>
+          <h3>Groups</h3>
+          <span id="group">&nbsp;</span>
+        </div>
+        
+        <div>
+          <h3>Friend Requests</h3>
+          <span id="friend">&nbsp;</span>
+        </div>
+      </section>
+      
+      <section>
+        <div>
+          <h4>Sound:</h4>
+          <select class="snd">
+            <option value="fan">Fan</option>
+            <option value="fire">Fire</option>
+            <option value="forest">Forest</option>
+            <option value="rain" selected>Rain</option>
+            <option value="waves">Waves</option>
+            <option value="wind">Wind</option>
+          </select>
+        </div>
+        
+        <div>
+          <h4>Color Scheme:</h4>
+          <select class="off">
+            <option class="black">Off</option>
+            <option class="blue">Off</option>
+            <option class="green">Off</option>
+            <option class="orange">Off</option>
+            <option class="pink">Off</option>
+            <option class="purple">Off</option>
+            <option class="red" selected>Off</option>
+            <option class="white">Off</option>
+          </select>
+          <select class="on">
+            <option class="black">On</option>
+            <option class="blue">On</option>
+            <option class="green" selected>On</option>
+            <option class="orange">On</option>
+            <option class="pink">On</option>
+            <option class="purple">On</option>
+            <option class="red">On</option>
+            <option class="white">On</option>
+          </select>
+        </div>
+      </section>
+    </article>
+    
+    <aside>
+      <h5>Notification Level</h5>
+      <div id="bar"></div>
+      <h6 id="count">0</h6>
+    </aside>
+  </main>
+  
+  <audio loop>
+    <source src="sounds/rain.mp3" type="audio/mpeg">
+  </audio>
+</body>
+</html>
