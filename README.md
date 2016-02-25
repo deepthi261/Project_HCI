@@ -1,6 +1,8 @@
 # csci253-web
 Our ambient web interface for CSCI 253 - HUMAN COMPUTER INTERACTION.
+
 Developed user interface that will play ambient sounds for notifications which receives from your Data source. DataSource is used here is Facebook. Our users will be able to filter what notifications should be considered.
+
 Tools: HTML5, XML, CSS, jQuery, Angular JS and PHP.
 
 DESCRITPTION:
@@ -9,3 +11,4 @@ Our idea, as of now, is to create an ambient sounds when there are notifications
 
 Paper Proptype of Interfaces:
 
+![alt text](ScreenShot_1.png "Mobile Interface")
